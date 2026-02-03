@@ -1,0 +1,31 @@
+{
+
+    "popularproducts":[{
+
+        "id" : 1,
+        "name" :"iPad 8",
+        "category":"Tablet",
+        "price": 329,
+        "image":"https://images.unsplash.com/photo-1525101238777-8878781fc06d",
+        "description":"The iPad 8th generation features a 10.2-inch Retina display, A12 Bionic chip, and support for Apple Pencil and Smart Keyboard."
+    },
+    {
+
+        "id" : 2,
+        "name" :"iPad Air",
+        "category":"Tablet",
+        "price": 599,
+        "image":"https://images.unsplash.com/photo-1530319067432-f2a729c03db5",
+        "description":"The iPad Air features a 10.9-inch Liquid Retina display, A14 Bionic chip, and support for Apple Pencil and Smart Keyboard."
+    },
+    {
+
+        "id" : 3,
+        "name" :"iPad Pro",
+        "category":"Tablet",
+        "price": 799,
+        "image":"https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3",
+        "description":"The iPad Pro features a 12.9-inch Liquid Retina XDR display, M2 chip, and support for Apple Pencil and Magic Keyboard."
+    }
+]
+}
