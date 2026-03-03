@@ -1,0 +1,41 @@
+import React from "react";
+import { Image } from "react-native";
+
+const Obstacles = ({
+  color,
+  obstacleWidth,
+  obstacleHeight,
+  randomBottom,
+  gap,
+  obstaclesLeft,
+}) => {
+  return (
+    <>
+      <Image
+      source ={require ("../../assets/pipe.png")}
+        style={{
+          position: "absolute",
+          backgroundColor: color,
+          width: obstacleWidth,
+          height: 500,
+          left: obstaclesLeft,
+          bottom: randomBottom + obstacleHeight + gap,
+        }}
+      />
+
+      <Image
+      source ={require ("../../assets/pipe.png")}
+        style={{
+          position: "absolute",
+          backgroundColor: color,
+          width: obstacleWidth,
+          height: obstacleHeight,
+          left: obstaclesLeft,
+          bottom: randomBottom,
+        }}
+      />
+    </>
+  );
+};
+
+export default Obstacles;
